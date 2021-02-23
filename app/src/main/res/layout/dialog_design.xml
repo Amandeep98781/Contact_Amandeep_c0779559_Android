@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff">
+
+    <ImageView
+        android:id="@+id/closeIv"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_close"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/add_record2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Call" />
+        <Button
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/add_record3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Send Email" />
+        <Button
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/add_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Close Dialog" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
